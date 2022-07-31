@@ -15,4 +15,5 @@ Hello all!
 4. Нажимаем на зеленую кнопку _**Code**_, копируем адрес репозитория.---cм. далее п.8!!!
 5. Заходим в новую "пустую" (не репозиторий!) папку в VSC и открываем Терминал.
 6. Пишем в командной строке `git clone <адрес вашего репозитория в GitHub>`
-7. Если ввести `git branch`, напишет _"fatal: not a git repository (or any of the parent directories): .git"_ - и далее хоть pull, хоть что - ничего не получилось!!!??? ПОЧЕМУ???
+7. Если ввести `git branch`, напишет _"fatal: not a git repository (or any of the parent directories): .git"_ - и далее делаем инициализацию репозитория: `git init`
+ 
